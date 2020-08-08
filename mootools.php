@@ -8,56 +8,12 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
   
 </head>
-<body>
-
-<header>
-  <div class="overlay"></div>
-  <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
-    <source src="https://storage.googleapis.com/coverr-main/mp4/Mt_Baker.mp4" type="video/mp4">
-  </video>
-  <div class="container h-100">
-    <div class="d-flex h-100 text-center align-items-center">
-      <div class="w-100 text-white">
-      
-     
-        <img class="display-3"src="logo/mootools.jpg"alt="moootools"/>
-      </div>
-    </div>
-  </div>
-</header>
-
-<section class="my-5">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-8 mx-auto">
-        <h1 class="display-3">EDITOR MOLTO FACILE ED INTUITIVO PER PROGRAMMARE IN MOOTOOLS!</h1>
-        
-      </div>
-    </div>
-  </div>
-</section>
-
-<form action="mootools/mootools.php"method="post">>
-
-<label for="textarea-a">Textarea:</label>
-<textarea name="mootools" class="form-control">
-
-
 <?php
 
+if(isset($_POST['mootools'])){
 
-echo'<script src="https://ajax.googleapis.com/ajax/libs/mootools/1.6.0/mootools.min.js"></script>';
+echo $_POST['mootools'];
 
-
-
-
+}
 
 ?>
-
-</textarea>
-
-<button class="btn btn-primary"type="submit">PROGRAMMAZIONE IN MOOTOOLS</button>
-
-</form>
-</body>
-</html>
