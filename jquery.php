@@ -42,7 +42,7 @@
 
 
 
-<form action="jquery/jquery.php"method="post">>
+<form action="jquery/jquery.php"method="post">
 
 <label for="textarea-a">Textarea:</label>
 <textarea name="jquery" class="form-control">
